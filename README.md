@@ -15,7 +15,7 @@ My project is centered around developing a sophisticated software that is capabl
 
 The core goal of this endeavor is to create an accurate and efficient model that can discern the quality of a fruit with precision. The integration of such a system in the agricultural sector holds potential for revolutionizing quality control processes, paving the way for enhanced accuracy and speed in fruit inspection.
 
-The development and training of this model were accomplished using a Jetson Nano, a compact yet powerful machine learning device designed for edge deployment. I performed a detailed analysis of the dataset, with four CPU threads—referred to as workers—handling data loading, and ran 50 epochs, which are complete passes through the dataset. This procedure took roughly 15 hours. To further hone the model's accuracy, I increased the training duration to 100 epochs, extending the process to around 35 hours.
+The development and training of this model were accomplished using a Jetson Nano, a compact yet powerful machine learning device designed for edge deployment. I performed a detailed analysis of the dataset, with four CPU threads—referred to as workers—handling data loading, and ran 50 epochs, which are complete passes through the dataset. This procedure took roughly 15 hours and the model can be downloaded here: [fruits_epochs_50_workers_4](https://www.dropbox.com/scl/fi/7xhfk7fi310c8s003j4qh/fruits_epochs_50_workers_4.zip?rlkey=sp2636nnv1cu5qtilquee9t3m&dl=0).
 
 It's crucial to note that workers here signifies the number of CPU threads utilized to load the data. The higher the number of workers, the more data batches can be loaded simultaneously, leading to quicker computation and a more streamlined training process. The number of epochs is not a fixed parameter; you can increase it if you aim to further refine the model's accuracy.
 
@@ -91,8 +91,8 @@ To test your network, you can run images through it:
 5. Run this command to see how the model works on an image from the test folder: `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Apple_Good/PICK_AN_IMAGE.jpg PICK_A_NAME_FOR_THE_IMAGE.jpg`. Keep  in mind that you are able to change **Apple_Good** to any fruit and quality you want, you are able to pick any test image by changing **PICK_AN_IMAGE.jpg**, and are able to change the name of the output image name by changing **PICK_A_NAME_FOR_THE_IMAGE.jpg**.
 6 Launch VS Code to view the image output (located in the classification folder). Remember to replace **ANY_NAME_YOU_WANT** with the name you gave your model while training.
 
-### Add My Own Model with Epochs 100
+### Add My Own Model with Epochs 50
 
-1. Download my [fruits_epochs_100_workers_4](https://www.dropbox.com/scl/fi/7xhfk7fi310c8s003j4qh/fruits_epochs_50_workers_4.zip?rlkey=sp2636nnv1cu5qtilquee9t3m&dl=0) ZIP folder.
-2. Navigate to **jetson-inference/python/training/classification/models** and place the **fruits_epochs_100_workers_4** downloaded folder in the directory.
-3. From here, follow the **Testing the Trained Network on Images** section step (the section above this one). However, replace **ANY_NAME_YOU_WANT ** with **fruits_epochs_100_workers_4**.
+1. Download my [fruits_epochs_50_workers_4](https://www.dropbox.com/scl/fi/7xhfk7fi310c8s003j4qh/fruits_epochs_50_workers_4.zip?rlkey=sp2636nnv1cu5qtilquee9t3m&dl=0) ZIP folder.
+2. Navigate to **jetson-inference/python/training/classification/models** and place the **fruits_epochs_50_workers_4** downloaded folder in the directory.
+3. From here, follow the **Testing the Trained Network on Images** section step (the section above this one). However, replace **ANY_NAME_YOU_WANT ** with **fruits_epochs_50_workers_4**.

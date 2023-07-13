@@ -92,6 +92,7 @@ To test your network, you can run images through it:
 6 Launch VS Code to view the image output (located in the classification folder). Remember to replace **ANY_NAME_YOU_WANT** with the name you gave your model while training.
 
 ### Add My Own Model with Epochs 100
-1. Download the **fruits_epochs_100_workers_4** folder in this repository.
-2. Navigate to **jetson-inference/python/training/classification/models** and place the **fruits_epochs_100_workers_4** folder in the directory.
+
+1. Download my [fruits_epochs_100_workers_4](https://www.dropbox.com/scl/fi/7xhfk7fi310c8s003j4qh/fruits_epochs_50_workers_4.zip?rlkey=sp2636nnv1cu5qtilquee9t3m&dl=0) ZIP folder.
+2. Navigate to **jetson-inference/python/training/classification/models** and place the **fruits_epochs_100_workers_4** downloaded folder in the directory.
 3. From here, follow the **Testing the Trained Network on Images** section step (the section above this one). However, replace **ANY_NAME_YOU_WANT ** with **fruits_epochs_100_workers_4**.

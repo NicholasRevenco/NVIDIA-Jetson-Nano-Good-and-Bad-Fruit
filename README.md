@@ -1,11 +1,15 @@
 # Good and Bad Fruit Detector
 
-![banana_bad](https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/0748ad4b-9ced-4bbb-87ca-62b088f0995c)
-Model that detects a bad orange:
-
-![orange_good](https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/eab2e665-27dc-4e4f-a1fa-c8292c05e5d8)
-Model that detects a good orange:
-
+<div style="display: flex; justify-content: space-between; margin-bottom: 75px">
+  <div>
+    <img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/0748ad4b-9ced-4bbb-87ca-62b088f0995c" width="300" height="100%">
+	<p>Model that detects a bad orange:</p>
+  </div>
+  <div>
+    <img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/eab2e665-27dc-4e4f-a1fa-c8292c05e5d8" width="350" height="100%">
+	<p>Model that detects a good orange:</p>
+  </div>
+</div>
 
 My project is centered around developing a sophisticated software that is capable of distinguishing good and bad fruits, drawing from a robust dataset of 15,000 images. These images, depicting apples, bananas, guavas, limes, oranges, and pomegranates, represent a spectrum of conditions, with varying levels of quality. Each image is categorized as *good* or *bad*, providing the machine learning model with a foundation for understanding the characteristics that determine a fruit's quality. For a more comprehensive understanding of the dataset, you can follow this [link](https://www.kaggle.com/datasets/ryandpark/fruit-quality-classification).
 
@@ -91,4 +95,3 @@ To test your network, you can run images through it:
 1. Download the **fruits_epochs_100_workers_4** folder in this repository.
 2. Navigate to **jetson-inference/python/training/classification/models** and place the **fruits_epochs_100_workers_4** folder in the directory.
 3. From here, follow the **Testing the Trained Network on Images** section step (the section above this one). However, replace **ANY_NAME_YOU_WANT ** with **fruits_epochs_100_workers_4**.
-

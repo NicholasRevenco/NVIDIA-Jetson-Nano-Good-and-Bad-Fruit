@@ -2,11 +2,11 @@
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 75px">
 	<div>
-		<img src=https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/f19eeea4-864e-4497-bbf0-db830128e7eb" width="350" height="100%">
+		<img src=https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/f19eeea4-864e-4497-bbf0-db830128e7eb" width="280" height="100%">
 		<p>Model that detects a good orange:</p>
 	</div>
 	<div>
-    		<img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/e3d0b09e-ea1a-48c7-a80e-57bdde21e5a9" width="300" height="100%">
+    		<img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/e3d0b09e-ea1a-48c7-a80e-57bdde21e5a9" width="350" height="100%">
 		<p>Model that detects a bad orange:</p>
  	</div>
 </div>

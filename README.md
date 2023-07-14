@@ -1,14 +1,14 @@
 # Good and Bad Fruit Detector
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 75px">
-  <div>
-    <img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/0748ad4b-9ced-4bbb-87ca-62b088f0995c" width="300" height="100%">
-	<p>Model that detects a bad orange:</p>
-  </div>
-  <div>
-    <img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/eab2e665-27dc-4e4f-a1fa-c8292c05e5d8" width="350" height="100%">
-	<p>Model that detects a good orange:</p>
-  </div>
+	<div>
+		<img src=https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/f19eeea4-864e-4497-bbf0-db830128e7eb" width="350" height="100%">
+		<p>Model that detects a good orange:</p>
+	</div>
+	<div>
+    		<img src="https://github.com/NicholasRevenco/NVIDIA-Jetson-Nano-Good-and-Bad-Fruit/assets/111706705/e3d0b09e-ea1a-48c7-a80e-57bdde21e5a9" width="300" height="100%">
+		<p>Model that detects a bad orange:</p>
+ 	</div>
 </div>
 
 My project is centered around developing a sophisticated software that is capable of distinguishing good and bad fruits, drawing from a robust dataset of 15,000 images. These images, depicting apples, bananas, guavas, limes, oranges, and pomegranates, represent a spectrum of conditions, with varying levels of quality. Each image is categorized as *good* or *bad*, providing the machine learning model with a foundation for understanding the characteristics that determine a fruit's quality. For a more comprehensive understanding of the dataset, you can follow this [link](https://www.kaggle.com/datasets/ryandpark/fruit-quality-classification).
